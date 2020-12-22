@@ -1,0 +1,81 @@
+/* CSS FORMAT */
+/* Selector {
+    Property: Value;
+} */
+
+body{
+    background-color: rgb(50, 174, 205);
+}
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+p{
+    border: 5px solid #1A5EFA;
+    width: 250px;
+}
+
+.myHeadings{
+    color: red;
+    text-align: center;
+}
+
+#myParagraph{
+    color: purple; 
+    font-size: 25px; 
+    margin-left: 60px;
+}
+
+header div a{
+    color: blue;
+    font-size: 2rem;
+    font-weight: 4000px;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: tomato;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+header{
+    margin-top: 20px;
+}
+
+table{
+    width: 100%;
+    background-image: url('passport.jpeg');
+}
+
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+}
+th{
+    text-align: left;
+    font-weight: 800;
+    font-size: 30px;
+    background-color: goldenrod;
+    color: yellowgreen;
+}
+caption{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+#passport{
+    width: 60px;
+    height: 80px;
+}
+
+
